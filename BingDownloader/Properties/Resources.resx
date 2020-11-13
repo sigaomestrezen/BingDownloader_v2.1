@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8_bing_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-bing_128.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layout1" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;&lt;title&gt;LAYOUT DETALHADO&lt;/title&gt;&lt;style type="text/css"&gt;table { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; } caption { color: #33ccff; font-size: 50px; font-style: italic; font-weight: bold; } td { width: 50%; } div { height: 100px; border: 1px solid; padding: 5px; border-radius: 20px; display: inherit; } img { float: left; padding: 5px; } .c5 { color: cor01; } .c6 { color: cor02; } .c7 { color: cor03; } .c8 { color: cor04; } .c9 { color: cor05; } .c10 { color: cor06; } .c11 { color: cor07; } .c12 { color: cor08; } .c13 { color: cor09; } .c14 { color: cor10; } .c15 { color: cor11; } .c16 { color: cor12; } .c17 { color: cor13; } .c18 { color: cor14; } .c19 { color: cor15; } .azul { color: blue; } .vermelho { color: red; }&lt;/style&gt;&lt;script type="text/javascript"&gt;if (document.addEventListener) { document.addEventListener('contextmenu', function (e) { e.preventDefault(); }, false); } else { document.attachEvent('oncontextmenu', function () { window.event.returnValue = false; }); }&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;table&gt;&lt;caption&gt;&lt;img src="srcFlag" alt="nomeCidade" height="48"&gt;nomeCidade&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem01" target="_blank"&gt;&lt;img src="urlImagem01" alt=" dataImagem01 " height="90" id="imagem01" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(0);"&gt;&lt;/a&gt;&lt;span class="c5"&gt;infoArquivo01&lt;br&gt;descricaoArquivo01&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem02" target="_blank"&gt;&lt;img src="urlImagem02" alt=" dataImagem02 " height="90" id="imagem02" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(1);"&gt;&lt;/a&gt;&lt;span class="c6"&gt;infoArquivo02&lt;br&gt;descricaoArquivo02&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem03" target="_blank"&gt;&lt;img src="urlImagem03" alt=" dataImagem03 " height="90" id="imagem03" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(2);"&gt;&lt;/a&gt;&lt;span class="c7"&gt;infoArquivo03&lt;br&gt;descricaoArquivo03&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem04" target="_blank"&gt;&lt;img src="urlImagem04" alt=" dataImagem04 " height="90" id="imagem04" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(3);"&gt;&lt;/a&gt;&lt;span class="c8"&gt;infoArquivo04&lt;br&gt;descricaoArquivo04&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem05" target="_blank"&gt;&lt;img src="urlImagem05" alt=" dataImagem05 " height="90" id="imagem05" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(4);"&gt;&lt;/a&gt;&lt;span class="c9"&gt;infoArquivo05&lt;br&gt;descricaoArquivo05&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem06" target="_blank"&gt;&lt;img src="urlImagem06" alt=" dataImagem06 " height="90" id="imagem06" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(5);"&gt;&lt;/a&gt;&lt;span class="c10"&gt;infoArquivo06&lt;br&gt;descricaoArquivo06&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem07" target="_blank"&gt;&lt;img src="urlImagem07" alt=" dataImagem07 " height="90" id="imagem07" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(6);"&gt;&lt;/a&gt;&lt;span class="c11"&gt;infoArquivo07&lt;br&gt;descricaoArquivo07&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem08" target="_blank"&gt;&lt;img src="urlImagem08" alt=" dataImagem08 " height="90" id="imagem08" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(7);"&gt;&lt;/a&gt;&lt;span class="c12"&gt;infoArquivo08&lt;br&gt;descricaoArquivo08&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem09" target="_blank"&gt;&lt;img src="urlImagem09" alt=" dataImagem09 " height="90" id="imagem09" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(8);"&gt;&lt;/a&gt;&lt;span class="c13"&gt;infoArquivo09&lt;br&gt;descricaoArquivo09&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem10" target="_blank"&gt;&lt;img src="urlImagem10" alt=" dataImagem10 " height="90" id="imagem10" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(9);"&gt;&lt;/a&gt;&lt;span class="c14"&gt;infoArquivo10&lt;br&gt;descricaoArquivo10&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem11" target="_blank"&gt;&lt;img src="urlImagem11" alt=" dataImagem11 " height="90" id="imagem11" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(10);"&gt;&lt;/a&gt;&lt;span class="c15"&gt;infoArquivo11&lt;br&gt;descricaoArquivo11&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem12" target="_blank"&gt;&lt;img src="urlImagem12" alt=" dataImagem12 " height="90" id="imagem12" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(11);"&gt;&lt;/a&gt;&lt;span class="c16"&gt;infoArquivo12&lt;br&gt;descricaoArquivo12&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem13" target="_blank"&gt;&lt;img src="urlImagem13" alt=" dataImagem13 " height="90" id="imagem13" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(12);"&gt;&lt;/a&gt;&lt;span class="c17"&gt;infoArquivo13&lt;br&gt;descricaoArquivo13&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem14" target="_blank"&gt;&lt;img src="urlImagem14" alt=" dataImagem14 " height="90" id="imagem14" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(13);"&gt;&lt;/a&gt;&lt;span class="c18"&gt;infoArquivo14&lt;br&gt;descricaoArquivo14&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem15" target="_blank"&gt;&lt;img src="urlImagem15" alt=" dataImagem15 " height="90" id="imagem15" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(14);"&gt;&lt;/a&gt;&lt;span class="c19"&gt;infoArquivo15&lt;br&gt;descricaoArquivo15&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;LEGENDA:&lt;br&gt;&lt;span class="azul"&gt;Imagens não baixadas&lt;/span&gt;&lt;br&gt;&lt;span class="vermelho"&gt;Imagens já baixadas&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="layout2" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;&lt;title&gt;LAYOUT COMPACTO&lt;/title&gt;&lt;style type="text/css"&gt;table { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; } caption { color: #33ccff; font-size: 50px; font-style: italic; font-weight: bold; } td { padding: 5; vertical-align: top; max-width: 20%; word-break: break-all; text-align: center; } div { border: 1px solid; padding: 5px; border-radius: 20px; } img { padding: 5px; } .c4 { color: cor01; } .c5 { color: cor02; } .c6 { color: cor03; } .c7 { color: cor04; } .c8 { color: cor05; } .c9 { color: cor06; } .c10 { color: cor07; } .c11 { color: cor08; } .c12 { color: cor09; } .c13 { color: cor10; } .c14 { color: cor11; } .c15 { color: cor12; } .c16 { color: cor13; } .c17 { color: cor14; } .c18 { color: cor15; } .azul { color: blue; } .vermelho { color: red; }&lt;/style&gt;&lt;script type="text/javascript"&gt;if (document.addEventListener) { document.addEventListener('contextmenu', function (e) { e.preventDefault(); }, false); } else { document.attachEvent('oncontextmenu', function () { window.event.returnValue = false; }); }&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;table&gt;&lt;caption&gt;&lt;img src="srcFlag" alt="nomeCidade" height="48"&gt;nomeCidade&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem01" target="_blank"&gt;&lt;img src="urlImagem01" alt=" dataImagem01 " height="90" id="imagem01" title="descricaoArquivo01
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(0);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c4"&gt;nomeArquivo01&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem02" target="_blank"&gt;&lt;img src="urlImagem02" alt=" dataImagem02 " height="90" id="imagem02" title="descricaoArquivo02
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(1);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c5"&gt;nomeArquivo02&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem03" target="_blank"&gt;&lt;img src="urlImagem03" alt=" dataImagem03 " height="90" id="imagem03" title="descricaoArquivo03
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(2);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c6"&gt;nomeArquivo03&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem04" target="_blank"&gt;&lt;img src="urlImagem04" alt=" dataImagem04 " height="90" id="imagem04" title="descricaoArquivo04
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(3);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c7"&gt;nomeArquivo04&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem05" target="_blank"&gt;&lt;img src="urlImagem05" alt=" dataImagem05 " height="90" id="imagem05" title="descricaoArquivo05
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(4);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c8"&gt;nomeArquivo05&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem06" target="_blank"&gt;&lt;img src="urlImagem06" alt=" dataImagem06 " height="90" id="imagem06" title="descricaoArquivo06
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(5);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c9"&gt;nomeArquivo06&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem07" target="_blank"&gt;&lt;img src="urlImagem07" alt=" dataImagem07 " height="90" id="imagem07" title="descricaoArquivo07
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(6);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c10"&gt;nomeArquivo07&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem08" target="_blank"&gt;&lt;img src="urlImagem08" alt=" dataImagem08 " height="90" id="imagem08" title="descricaoArquivo08
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(7);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c11"&gt;nomeArquivo08&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem09" target="_blank"&gt;&lt;img src="urlImagem09" alt=" dataImagem09 " height="90" id="imagem09" title="descricaoArquivo09
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(8);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c12"&gt;nomeArquivo09&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem10" target="_blank"&gt;&lt;img src="urlImagem10" alt=" dataImagem10 " height="90" id="imagem10" title="descricaoArquivo10
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(9);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c13"&gt;nomeArquivo10&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem11" target="_blank"&gt;&lt;img src="urlImagem11" alt=" dataImagem11 " height="90" id="imagem11" title="descricaoArquivo11
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(10);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c14"&gt;nomeArquivo11&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem12" target="_blank"&gt;&lt;img src="urlImagem12" alt=" dataImagem12 " height="90" id="imagem12" title="descricaoArquivo12
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(11);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c15"&gt;nomeArquivo12&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem13" target="_blank"&gt;&lt;img src="urlImagem13" alt=" dataImagem13 " height="90" id="imagem13" title="descricaoArquivo13
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(12);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c16"&gt;nomeArquivo13&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem14" target="_blank"&gt;&lt;img src="urlImagem14" alt=" dataImagem14 " height="90" id="imagem14" title="descricaoArquivo14
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(13);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c17"&gt;nomeArquivo14&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;a href="urlImagem15" target="_blank"&gt;&lt;img src="urlImagem15" alt=" dataImagem15 " height="90" id="imagem15" title="descricaoArquivo15
+[ parSalvar ]" oncontextmenu="window.external.LoadLine(14);"&gt;&lt;/a&gt;&lt;br&gt;&lt;span class="c18"&gt;nomeArquivo15&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="5"&gt;LEGENDA:&lt;br&gt;&lt;span class="azul"&gt;Imagens não baixadas&lt;/span&gt;&lt;br&gt;&lt;span class="vermelho"&gt;Imagens já baixadas&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="safe_in_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\safe_in_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

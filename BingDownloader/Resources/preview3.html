@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>TODAS AS IMAGENS DISPONÍVIES</title>
+		<style type="text/css">
+			section { border: dotted; width: 90%; margin-left: auto; margin-right: auto; padding: 5px; border-radius: 20px; display: inherit; }
+			table { border-spacing: 2px; width: 100%; }
+			caption { color: #33ccff; font-size: 50px; font-style: italic; font-weight: bold; }
+			td { width: 50%; }
+			div { height: 100px; border: 1px solid; padding: 5px; border-radius: 20px; display: inherit; }
+			img { float: left; padding: 5px; }
+			.azul { color: blue; }
+			.vermelho { color: red; }
+		</style>
+		<script type="text/javascript">
+			if (document.addEventListener) {
+				document.addEventListener('contextmenu', function (e) {
+					e.preventDefault();
+				}, false);
+			} else {
+				document.attachEvent('oncontextmenu', function () {
+					window.event.returnValue = false;
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<section>
+			<table>
+				<caption>nomeCidade</caption>
+				<tr>
+					<td><div><a href="urlImagem" target="_blank"><img src="urlImagem" alt=" dataImagem " height="90" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(i);"></a>infoArquivo<br>descricaoArquivo</div></td>
+					<td><div><a href="urlImagem" target="_blank"><img src="urlImagem" alt=" dataImagem " height="90" title=" [ parSalvar ] " oncontextmenu="window.external.LoadLine(i);"></a>infoArquivo<br>descricaoArquivo</div></td>
+				</tr>
+			</table>
+		</section>
+		<section>LEGENDA:<br><span class="azul">Imagens não baixadas</span><br><span class="vermelho">Imagens já baixadas</span></section>
+	</body>
+</html>
